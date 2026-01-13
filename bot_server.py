@@ -14,13 +14,13 @@ import base64
 def d(s): return base64.b64decode(s).decode()
 
 # --- الإعدادات المشفرة ---
-API_TOKEN = d('Nzg2NDgyMTYxMjpBQUhuOTlfWVZuX29ZeU9uZEQ4QnYtMUJxV3AzMllJM2VQOA==')
-ADMIN_ID = 5626244431
+API_TOKEN = d('8483983965:AAGlx0T1lbH8g6ZWeVCk8zDf_ySYhgb8G74')
+ADMIN_ID = 7126303561
 SECRET_KEY = b'martin_super_secret_key_2026'
 
 # --- إعدادات Supabase المشفرة ---
-SUPABASE_URL = d('aHR0cHM6Ly9zbnZpY2t2ZWF6emt1c2ZueXRmbi5zdXBhYmFzZS5jbw==')
-SUPABASE_KEY = d('ZXlKaGJHY2lPaUpIUXpJM05pSXNJbkI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKemRYQmFZV0poYzJVMklsSmxaaUk2SW5KdWRtbGphM1p2WVdSM2EzVnpaVzV1ZVhSZmJpSXNJbkp2YkdVaU9pSmhibTluSWx0cE1YUWlPakUzTmpneU5URXdNamdmSW1WNGNDSTZNalE0TXpneU56QXlPSDAuTFJmcjhod1lDLXRnT0lKcV84VHhxaFN5RC1ZTDNJVERTTU1MeWpOV3NIdw==')
+SUPABASE_URL = d('https://snvickveazzkusfnytfn.supabase.co')
+SUPABASE_KEY = d('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNudmlja3ZlYXp6a3VzZm55dGZuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjgyNTEwMjgsImV4cCI6MjA4MzgyNzAyOH0.LRfr8hwYC-tgOIJq_8TxqhSyD-YL3ITDS5MJyjNWsIw')
 HEADERS = {
     "apikey": SUPABASE_KEY,
     "Authorization": f"Bearer {SUPABASE_KEY}",
