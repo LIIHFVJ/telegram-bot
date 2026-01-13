@@ -5,7 +5,7 @@ import string
 import datetime
 import os
 
-API_TOKEN = "84839839659:AAG1s0f11bH8g6ZWcVk8zDf_y5Yhg8G74"
+API_TOKEN = "8483983965:AAEBJkc8tqQi6Gn0-pFcrD-uVYwVh2iQfuc"
 ADMIN_ID = 7126303561
 
 bot = telebot.TeleBot(API_TOKEN)
